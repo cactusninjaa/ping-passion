@@ -1,0 +1,89 @@
+.post-type-archive-bois .page-header{
+    width: 100%;
+    background-color: darkred;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 0px;
+    font-family: sans-serif;
+}
+
+.post-type-archive-bois .page-header h1{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.post-type-archive-bois .page-header p{
+    font-size: 20px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+@media screen and (min-width: 800px) {
+    .wood-wrapper{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 20px 80px;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .wood-wrapper{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 20px 80px;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .wood-wrapper{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 20px 20px;
+        margin: auto;
+    }
+}
+
+.wood-cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+}
+
+.wood-cards-content{
+    display: flex;
+    flex-direction: column;
+}
+.wood-cards a{
+    text-decoration: none;    
+    background-color: darkred;
+    color: #fff;
+    text-align: center;
+    font-weight: 600;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.wood-cards a:hover{
+    transition: 0.3s ease-in-out;
+    background-color: #030303;
+    color: #fff;
+}
+
+.wood-cards a:active{
+    color: #fff;
+}
+.wood-cards a:visited{
+    color: #fff;
+}

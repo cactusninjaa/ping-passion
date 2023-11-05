@@ -1,0 +1,43 @@
+.site-header {
+    width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+    background-color: black;
+    padding: 20px;
+}
+
+.header-menu {
+	display: flex;
+	gap: 20px;
+	list-style: none;
+	margin-block: 0;
+}
+
+nav {
+    display: block;
+}
+
+.nav-menu{
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.header-menu li {
+	padding-block: 30px;
+}
+
+.site-branding{
+    display: block;
+    width: 100px;
+}
+
+.site-branding a{
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.site-header a:visited{
+    color: white;
+}

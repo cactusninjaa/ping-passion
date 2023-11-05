@@ -1,0 +1,108 @@
+.post-type-archive-revetements .page-header{
+    width: 100%;
+    background-color: darkblue;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 0px;
+    font-family: sans-serif;
+}
+
+
+.revetement-cards{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+@media screen and (min-width: 1000px) {
+    .revetement-cards-content{
+        display: flex;
+        gap: 20px;
+        align-items: center;
+    } 
+    .revetement-cards img{
+        width: 60px;
+    }
+    .revetement-wrapper{
+        padding: 20px 80px;
+        margin: auto;
+    }
+    .post-type-archive-revetements  .page-header h1{
+        font-size: 40px;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+    
+    .post-type-archive-revetements .page-header p{
+        font-size: 20px;
+        font-weight: 400;
+        font-style: italic;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .revetement-cards-content{
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        align-items: flex-start;
+    } 
+    .revetement-cards img{
+        width: 100px;
+    }
+    .revetement-wrapper{
+        padding: 20px 20px;
+        margin: auto;
+    }
+    .post-type-archive-revetements  .page-header h1{
+        font-size: 28px;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+    
+    .post-type-archive-revetements .page-header p{
+        font-size: 16px;
+        font-weight: 400;
+        font-style: italic;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .revetement-wrapper{
+        padding: 20px 10px;
+        margin: auto;
+    }
+    .post-type-archive-revetements .page-header p{
+        font-size: 12px;
+        font-weight: 400;
+        font-style: italic;
+    }
+}
+
+
+
+.revetement-cards a{
+    text-decoration: none;    
+    background-color: darkblue;
+    color: #fff;
+    text-align: center;
+    font-weight: 600;
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.revetement-cards a:hover{
+    transition: 0.3s ease-in-out;
+    background-color: #030303;
+    color: #fff;
+}
+
+.revetement-cards a:active{
+    color: #fff;
+}
+.revetement-cards a:visited{
+    color: #fff;
+}
